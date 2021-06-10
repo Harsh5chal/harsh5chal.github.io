@@ -35,6 +35,9 @@ hr {
   padding-top: 50px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
+.profile-badge--width-330 {
+  width: 630px;
+}
 .column2 {
   float: left;
   width: 50%;
