@@ -23,7 +23,30 @@ hr {
   padding-bottom: 40px;
   text-transform: uppercase;
 }
-
+/* columbs */
+.container1 {
+  width: 100%;
+  padding-left: 10px;
+  margin: 0;
+}
+.column1 {
+  float: left;
+  width: 50%;
+  padding-top: 50px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column2 {
+  float: left;
+  width: 50%;
+  padding-top: 50px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* START NAVIGATION */
 .sticky-navigation { opacity: 0; }
 .navbar-default {
