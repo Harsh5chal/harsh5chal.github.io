@@ -1,4 +1,4 @@
-﻿body {
+﻿﻿body {
   background: #ffffff;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
@@ -38,7 +38,7 @@ hr {
 }
 .column1 {
   float: left;
-  width: 50%;
+  width: 330px;
   padding-top: 50px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
@@ -47,8 +47,16 @@ hr {
 }
 .column2 {
   float: left;
-  width: 50%;
+  width: 40%;
   padding-top: 50px;
+  padding-left: 100px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column3 {
+  float: left;
+  width: 330px;
+  padding-top: 50px;
+  padding-left: 100px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
 /* Clear floats after the columns */
@@ -544,27 +552,6 @@ input { height: 50px; }
   text-decoration: none;
   margin-right: 6px;
   margin-bottom: 10px;
-}
-blockquote {
-  margin: 3.7em auto;
-  padding: 2em;
-  background: linear-gradient(white, white) padding-box,
-    url(https://github.com/Harsh5chal/harsh5chal.github.io/blob/main/images/home-bg.jpg) border-box 0 /
-      cover;
-  border: 2em solid transparent;
-  box-shadow: 5px 3px 30px #f29172;
-  font-size: 1.4em;
-  font-family: "Lora", serif;
-  font-style: italic;
-  line-height: 1.5;
-  width: 60%;
-}
-
-
-cite {
-  font-style: normal;
-  font-size: 1.2em;
-  font-weight: bold;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lora);
