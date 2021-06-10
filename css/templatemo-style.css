@@ -26,8 +26,8 @@ hr {
 /* columbs */
 .container1 {
   width: 100%;
-  padding-left: 10px;
-  margin: 0;
+  padding-left: 0;
+  margin: 50px;
 }
 .column1 {
   float: left;
