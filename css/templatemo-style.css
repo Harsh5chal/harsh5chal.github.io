@@ -11,6 +11,7 @@ html, body {
 }
 h2,h3 { font-weight: 300;}
 
+
 h1{
 
   font-family: "Sofia",sans-serif;
@@ -19,6 +20,7 @@ h1{
 }
 
 p { line-height: 28px;}
+
 hr {
   border-color: #f2f2f2;
   width: 100px;
@@ -142,6 +144,7 @@ hr {
 .tm-home-title { font-size: 60px;
   font-family: "Sofia",sans-serif;
   font-weight: 300;
+  padding-bottom: 50px;
 }
 .tm-home-subtitle {
   color: #eb5424;
@@ -150,8 +153,7 @@ hr {
   letter-spacing: 2px;
 }
 .tm-view-more-btn {
-  background: #eb5424;
-  color: #ffffff;
+  
   border: none;
   border-radius: 2px;
   font-size: 20px;
@@ -160,7 +162,24 @@ hr {
   padding: 15px 50px;
   -webkit-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
-}
+
+          background: linear-gradient(-30deg, #0b1b3d 50%, #08142b 50%);
+          padding: 20px 40px;
+          margin: 12px;
+          display: inline-block;
+          -webkit-transform: translate(0%, 0%);
+                  transform: translate(0%, 0%);
+          overflow: hidden;
+          color: #d4e0f7;
+          font-size: 20px;
+          letter-spacing: 2.5px;
+          text-align: center;
+          text-transform: uppercase;
+          text-decoration: none;
+          -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+                  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        
+  }
 .tm-view-more-btn:hover {
   background: #ffffff;
   color: #eb5424;
@@ -172,27 +191,26 @@ hr {
 
 /* START WORK */
 .tm-padding-top-bottom-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .tm-work-h3 {
-  color: #eb5424;
+  color: #eb1a1a;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
   padding-bottom: 10px;
 }
 .work-wrapper {
-  border: 1px solid #666;
+
   border-radius: 2px;
   text-align: center;
-  padding: 80px 40px 80px 40px;
   -webkit-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
 }
-.work-wrapper:hover { border-color: #eb5424; }
+.work-wrapper:hover { border-color: #ff0000; }
 .work-wrapper .fa {
-  color: #888888;
+  color: #000000;
   font-size: 60px;
   padding-bottom: 40px;
 }
@@ -201,7 +219,7 @@ hr {
 /* START PORTFOLIO */
 .tm-portfolio {
   background: #f8f8f8;
-  padding-top: 80px;
+  padding-top: 50px;
 }
 .tm-portfolio .container {
   width: 100%;
@@ -381,84 +399,10 @@ hr {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  padding-top: 60px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 /* END ABOUT */
-
-/* START SOCIAL */
-.tm-social {
-  text-transform: uppercase;
-}
-.tm-social .container {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-.tm-social .col-md-4 {
-  padding: 0;
-  margin: 0;
-}
-.facebook:hover,
-.twitter:hover,
-.pinterest:hover {
-  background: #202020;
-}
-.facebook { background: #3b5998; }
-.twitter { background: #55acee; }
-.pinterest { background: #cc2127; }
-.media {
-  padding: 80px 40px 80px 40px;
-  -webkit-transition: all 0.6s ease-in;
-          transition: all 0.6s ease-in;
-}
-.tm-social a {
-  color: #ffffff;
-  display: inline-block;
-  text-decoration: none;
-}
-.tm-social .media .fa {
-  background: #ffffff;
-  border-radius: 2px;
-  color: #707070;
-  font-size: 30px;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  margin-right: 20px;
-}
-.tm-social-title {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-}
-/* END SOCIAL */
-
-/* START CONTACT */
-.tm-contact {
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 40px;
-}
-.form-control {
-  background: transparent;
-  border: 1px solid #666;
-  border-radius: 2px;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  margin-bottom: 10px;
-  -webkit-transition: all 0.6s ease-in;
-          transition: all 0.6s ease-in;
-}
-.form-control:focus,
- .form-control:hover {
-  background: #202020;
-  color: #ffffff;
-}
-input { height: 50px; }
-.tm-contact p { padding-top: 40px; }
-/* END CONTACT */
-
 @media screen and (max-device-width: 1024px){
   .templatemo-home {
     background-attachment: scroll;
@@ -484,7 +428,7 @@ input { height: 50px; }
 /* START certificates */
 .tm-certificates {
   background: #f8f8f8;
-  padding-top: 80px;
+  padding-top: 50px;
 }
 .tm-certificates .container {
   width: 100%;
@@ -559,5 +503,86 @@ input { height: 50px; }
   margin-right: 6px;
   margin-bottom: 10px;
 }
+h4 {
+
+  border-top: 2px dashed;
+  border-color: blue !important;
+  margin:0; padding: 30px;
+}
+
+
+
+h4:nth-child(even) {
+  border-left: 2px dashed;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-right: 30px; 
+  padding-right: 0;
+}
+
+h4:nth-child(odd) {
+  border-right: 2px dashed;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 30px; 
+  padding-left: 0;
+}
+
+h4:first-child {
+  border-top: 0;
+  border-top-right-radius:0;
+  border-top-left-radius:0;
+}
+
+h4:last-child {
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:0;
+}
+
+.rb-container {
+  font-family: "PT Sans", sans-serif;
+  width: 100%;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+.rb-container ul.rb {
+  margin: 2.5em 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.rb-container ul.rb li {
+  list-style: none;
+  margin: auto;
+  min-height: 50px;
+  border-left: 1px dashed black;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+
+
+
+.rb-container ul.rb li::before {
+  position: absolute;
+  left: -8px;
+  top: 8px;
+  content: " ";
+  border: 8px solid rgb(0, 0, 0);
+  border-radius: 500%;
+  background: #000000;
+  height: 8px;
+  width: 8px;
+  transition: all 500ms ease-in-out;
+}
+
+ul.rb li .timestamp {
+  font-size: 1.75em;
+  margin-bottom: 1.2em;
+  color: black;
+  position: relative;
+}
+
 
 @import url(https://fonts.googleapis.com/css?family=Lora);
